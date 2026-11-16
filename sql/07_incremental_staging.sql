@@ -1,0 +1,14 @@
+DROP TABLE IF EXISTS silver_restaurants_cleaned_stage;
+CREATE TABLE silver_restaurants_cleaned_stage (LIKE silver_restaurants_cleaned INCLUDING DEFAULTS);
+DROP TABLE IF EXISTS silver_customers_cleaned_stage;
+CREATE TABLE silver_customers_cleaned_stage (LIKE silver_customers_cleaned INCLUDING DEFAULTS);
+DROP TABLE IF EXISTS silver_agents_cleaned_stage;
+CREATE TABLE silver_agents_cleaned_stage (LIKE silver_agents_cleaned INCLUDING DEFAULTS);
+DROP TABLE IF EXISTS silver_orders_cleaned_stage;
+CREATE TABLE silver_orders_cleaned_stage (LIKE silver_orders_cleaned INCLUDING DEFAULTS);
+DROP TABLE IF EXISTS silver_order_items_cleaned_stage;
+CREATE TABLE silver_order_items_cleaned_stage (LIKE silver_order_items_cleaned INCLUDING DEFAULTS);
+DROP TABLE IF EXISTS silver_payments_cleaned_stage;
+CREATE TABLE silver_payments_cleaned_stage (LIKE silver_payments_cleaned INCLUDING DEFAULTS);
+DROP TABLE IF EXISTS silver_complaints_cleaned_stage;
+CREATE TABLE silver_complaints_cleaned_stage (LIKE silver_complaints_cleaned INCLUDING DEFAULTS);

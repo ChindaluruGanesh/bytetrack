@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: silver
+    schema: public
+    tables:
+      - name: silver_orders_cleaned
+      - name: silver_order_items_cleaned
+      - name: silver_restaurants_cleaned
+      - name: silver_customers_cleaned
+      - name: silver_agents_cleaned
+      - name: silver_payments_cleaned
+      - name: silver_complaints_cleaned
+      - name: stg_rejected_level1
+      - name: stg_rejected_level2
